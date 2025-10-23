@@ -6,13 +6,13 @@ operacion = input("Operacion (sumar/restar/multiplicar/dividir): ")
 if operacion == "sumar":
     resultado = numero1 + numero2
 
-if operacion == "restar":
+elif operacion == "restar":
     resultado = numero1 - numero2
 
-if operacion == "multiplicar":
+elif operacion == "multiplicar":
     resultado = numero1 * numero2
 
-if operacion == "dividir":
+elif operacion == "dividir":
     resultado = numero1 / numero2
 
 print("resultado:", resultado)
